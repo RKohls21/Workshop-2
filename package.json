@@ -1,8 +1,7 @@
 {
   "name": "server2_test",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "workshop2.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,5 +12,14 @@
     "dateformat": "^3.0.3",
     "express": "^4.17.1",
     "pg": "^7.12.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RKohls21/Workshop-2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RKohls21/Workshop-2/issues"
+  },
+  "homepage": "https://github.com/RKohls21/Workshop-2#readme",
+  "description": ""
 }
