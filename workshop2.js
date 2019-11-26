@@ -48,7 +48,7 @@ app.post("/create-user", async (req, res) => {
 app.delete("/delete-user", async (req, res) => {
     try {
         const template = "DELETE FROM attendees WHERE username = $1";
-        const response = await pool.query(template, [req.query.username]);
+        const response = await pool.query(template, [username]);
         res.json({status: "deleted"});
     } catch(err){
         res.json({ status: "error " + err})
